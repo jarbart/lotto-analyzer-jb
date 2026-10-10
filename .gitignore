@@ -1,0 +1,52 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local backups
+backup_old/
+*backup*/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local research outputs
+research/output/
+research/results/*.csv
+research/results/*.json
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Generated data and local analysis outputs
+data/generated_sets.csv
+data/lotto_backup_*.txt
+data/mask_analysis_draws.csv
